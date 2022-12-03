@@ -1,0 +1,134 @@
+[
+  {
+    "id": "677290",
+    "categoryId": "2589",
+    "producerName": "Oculus",
+    "categoryName": "Gogle VR",
+    "name": "Quest 2 - 128 GB",
+    "description": "Kompatybilność: PC<br/>Rozdzielczość ekranu: 3664 x 1920<br/>Dźwięk: Wbudowany mikrofon, Wbudowane głośniki<br/>Czujniki: Akcelerometr, Magnetometr, Żyroskop",
+    "price": 2349,
+    "photoUrl": "https://cdn.x-kom.pl/i/setup/images/prod/big/product-large,,2020/9/pr_2020_9_29_11_7_31_950_04.jpg",
+    "photoImportPath": "http://127.0.0.1/product_images/pr_2020_9_29_11_7_31_950_04.jpg"
+  },
+  {
+    "id": "593785",
+    "categoryId": "2589",
+    "producerName": "HP",
+    "categoryName": "Gogle VR",
+    "name": "Reverb G2",
+    "description": "Kompatybilność: PC, SteamVR<br/>Rozdzielczość ekranu: 4320 x 2160<br/>Pole widzenia: 114º<br/>Dźwięk: Wbudowane głośniki<br/>Czujniki: Akcelerometr, Magnetometr, Żyroskop, 6DoF",
+    "price": 3199,
+    "photoUrl": "https://cdn.x-kom.pl/i/setup/images/prod/big/product-large,,2021/8/pr_2021_8_17_13_18_36_219_03.jpg",
+    "photoImportPath": "http://127.0.0.1/product_images/pr_2021_8_17_13_18_36_219_03.jpg"
+  },
+  {
+    "id": "594934",
+    "categoryId": "2589",
+    "producerName": "Oculus",
+    "categoryName": "Gogle VR",
+    "name": "Quest 2 - 256 GB",
+    "description": "Kompatybilność: PC<br/>Rozdzielczość ekranu: 3664 x 1920<br/>Dźwięk: Wbudowany mikrofon, Wbudowane głośniki<br/>Czujniki: Akcelerometr, Magnetometr, Żyroskop",
+    "price": 2869,
+    "photoUrl": "https://cdn.x-kom.pl/i/setup/images/prod/big/product-large,,2020/9/pr_2020_9_29_11_7_31_950_04.jpg",
+    "photoImportPath": "http://127.0.0.1/product_images/pr_2020_9_29_11_7_31_950_04.jpg"
+  },
+  {
+    "id": "437038",
+    "categoryId": "2589",
+    "producerName": "HTC",
+    "categoryName": "Gogle VR",
+    "name": "VIVE Pro Full Kit",
+    "description": "Kompatybilność: PC, SteamVR, Viveport<br/>Rozdzielczość ekranu: 2880 x 1600<br/>Pole widzenia: 110º<br/>Dźwięk: Wbudowany podwójny mikrofon, Wbudowane złącze audio<br/>Czujniki: Akcelerometr, Żyroskop, Śledzenie laserowe, Wsparcie dla Lighthouse 2.0",
+    "price": 3849,
+    "photoUrl": "https://cdn.x-kom.pl/i/setup/images/prod/big/product-large,,2018/7/pr_2018_7_16_10_43_47_941_00.jpg",
+    "photoImportPath": "http://127.0.0.1/product_images/pr_2018_7_16_10_43_47_941_00.jpg"
+  },
+  {
+    "id": "682031",
+    "categoryId": "2589",
+    "producerName": "HTC",
+    "categoryName": "Gogle VR",
+    "name": "VIVE Pro 2 Full Kit",
+    "description": "Kompatybilność: PC<br/>Rozdzielczość ekranu: 4896 x 2448<br/>Pole widzenia: 120º<br/>Dźwięk: Wbudowany podwójny mikrofon, Zestaw słuchawkowy Hi-Res<br/>Czujniki: Akcelerometr, Żyroskop, Śledzenie laserowe, Wsparcie dla Lighthouse 2.0, Czujnik bliskości",
+    "price": 6249,
+    "photoUrl": "https://cdn.x-kom.pl/i/setup/images/prod/big/product-large,,2021/9/pr_2021_9_22_15_40_31_533_00.jpg",
+    "photoImportPath": "http://127.0.0.1/product_images/pr_2021_9_22_15_40_31_533_00.jpg"
+  },
+  {
+    "id": "653102",
+    "categoryId": "2589",
+    "producerName": "HTC",
+    "categoryName": "Gogle VR",
+    "name": "Vive Pro 2 Headset",
+    "description": "Kompatybilność: PC<br/>Rozdzielczość ekranu: 4896 x 2448<br/>Pole widzenia: 120º<br/>Dźwięk: Wbudowany podwójny mikrofon, Zestaw słuchawkowy Hi-Res<br/>Czujniki: Akcelerometr, Żyroskop, Śledzenie laserowe, Wsparcie dla Lighthouse 2.0, Czujnik bliskości",
+    "price": 3349,
+    "photoUrl": "https://cdn.x-kom.pl/i/setup/images/prod/big/product-large,,2021/5/pr_2021_5_11_19_29_57_337_00.jpg",
+    "photoImportPath": "http://127.0.0.1/product_images/pr_2021_5_11_19_29_57_337_00.jpg"
+  },
+  {
+    "id": "653103",
+    "categoryId": "2589",
+    "producerName": "HTC",
+    "categoryName": "Gogle VR",
+    "name": "Focus 3 - Business Edition",
+    "description": "Kompatybilność: PC<br/>Rozdzielczość ekranu: 4896 x 2448<br/>Pole widzenia: 120º<br/>Dźwięk: Wbudowany podwójny mikrofon, Wbudowane głośniki<br/>Czujniki: Akcelerometr, Żyroskop, Czujnik bliskości",
+    "price": 6699,
+    "photoUrl": "https://cdn.x-kom.pl/i/setup/images/prod/big/product-large,,2021/5/pr_2021_5_11_19_35_28_783_00.jpg",
+    "photoImportPath": "http://127.0.0.1/product_images/pr_2021_5_11_19_35_28_783_00.jpg"
+  },
+  {
+    "id": "550109",
+    "categoryId": "2589",
+    "producerName": "HTC",
+    "categoryName": "Gogle VR",
+    "name": "VIVE Cosmos Elite",
+    "description": "Kompatybilność: PC<br/>Rozdzielczość ekranu: 2880 x 1700<br/>Pole widzenia: 110º<br/>Dźwięk: Wbudowany mikrofon, Zestaw słuchawkowy Hi-Res<br/>Czujniki: Akcelerometr, Żyroskop, Śledzenie laserowe",
+    "price": 3999,
+    "photoUrl": "https://cdn.x-kom.pl/i/setup/images/prod/big/product-large,,2020/3/pr_2020_3_4_11_39_53_731_06.jpg",
+    "photoImportPath": "http://127.0.0.1/product_images/pr_2020_3_4_11_39_53_731_06.jpg"
+  },
+  {
+    "id": "516142",
+    "categoryId": "2589",
+    "producerName": "HTC",
+    "categoryName": "Gogle VR",
+    "name": "VIVE Cosmos",
+    "description": "Kompatybilność: PC<br/>Rozdzielczość ekranu: 2880 x 1700<br/>Pole widzenia: 110º<br/>Dźwięk: Wbudowany podwójny mikrofon, Zestaw słuchawkowy Hi-Res<br/>Czujniki: Akcelerometr, Żyroskop, Śledzenie laserowe",
+    "price": 2999,
+    "photoUrl": "https://cdn.x-kom.pl/i/setup/images/prod/big/product-large,,2019/9/pr_2019_9_12_10_57_32_781_05.jpg",
+    "photoImportPath": "http://127.0.0.1/product_images/pr_2019_9_12_10_57_32_781_05.jpg"
+  },
+  {
+    "id": "491270",
+    "categoryId": "2589",
+    "producerName": "HTC",
+    "categoryName": "Gogle VR",
+    "name": "Vive Pro Eye",
+    "description": "Kompatybilność: PC, SteamVR, Viveport<br/>Rozdzielczość ekranu: 2880 x 1600<br/>Pole widzenia: 110º<br/>Dźwięk: Wbudowany podwójny mikrofon, Zestaw słuchawkowy Hi-Res<br/>Czujniki: Akcelerometr, Żyroskop, Śledzenie laserowe",
+    "price": 4749,
+    "photoUrl": "https://cdn.x-kom.pl/i/setup/images/prod/big/product-large,,2019/5/pr_2019_5_7_11_19_4_293_04.jpg",
+    "photoImportPath": "http://127.0.0.1/product_images/pr_2019_5_7_11_19_4_293_04.jpg"
+  },
+  {
+    "id": "698726",
+    "categoryId": "2589",
+    "producerName": "HTC",
+    "categoryName": "Gogle VR",
+    "name": "VIVE Flow",
+    "description": "Kompatybilność: Smartfon<br/>Rozdzielczość ekranu: 3200 x 1600<br/>Pole widzenia: 100º<br/>Dźwięk: Wbudowany podwójny mikrofon, Wbudowane głośniki<br/>Czujniki: 6DoF",
+    "price": 2149,
+    "photoUrl": "https://cdn.x-kom.pl/i/setup/images/prod/big/product-large,,2021/11/pr_2021_11_22_13_40_28_591_04.jpg",
+    "photoImportPath": "http://127.0.0.1/product_images/pr_2021_11_22_13_40_28_591_04.jpg"
+  },
+  {
+    "id": "607921",
+    "categoryId": "2589",
+    "producerName": "HTC",
+    "categoryName": "Gogle VR",
+    "name": "Focus Plus + Business Warranty Service",
+    "description": "Kompatybilność: PC<br/>Rozdzielczość ekranu: 2880 x 1600<br/>Pole widzenia: 110º<br/>Dźwięk: Wbudowany podwójny mikrofon, Wbudowane złącze audio, Wbudowane głośniki<br/>Czujniki: Akcelerometr, Magnetometr, Żyroskop, 6DoF",
+    "price": 4648,
+    "photoUrl": "https://cdn.x-kom.pl/i/setup/images/prod/big/product-large,,2020/12/pr_2020_12_4_13_59_32_426_00.jpg",
+    "photoImportPath": "http://127.0.0.1/product_images/pr_2020_12_4_13_59_32_426_00.jpg"
+  }
+]
