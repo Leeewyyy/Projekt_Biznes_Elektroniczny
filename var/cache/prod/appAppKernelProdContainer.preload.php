@@ -9,8 +9,8 @@ if (in_array(PHP_SAPI, ['cli', 'phpdbg'], true)) {
     return;
 }
 
-require dirname(__DIR__, 3).'/vendor/autoload.php';
-require __DIR__.'/Container0aE8Ive/appAppKernelProdContainer.php';
+require dirname(__DIR__, 3).''.\DIRECTORY_SEPARATOR.'vendor/autoload.php';
+require __DIR__.'/ContainerX2r5HjH/appAppKernelProdContainer.php';
 
 $classes = [];
 $classes[] = 'Symfony\Bundle\FrameworkBundle\FrameworkBundle';
@@ -161,11 +161,12 @@ $classes[] = 'Symfony\Component\HttpKernel\Controller\ArgumentResolver\RequestAt
 $classes[] = 'Symfony\Component\HttpKernel\Controller\ArgumentResolver\ServiceValueResolver';
 $classes[] = 'Symfony\Component\HttpKernel\Controller\ArgumentResolver\SessionValueResolver';
 $classes[] = 'Symfony\Component\HttpKernel\Controller\ArgumentResolver\VariadicValueResolver';
+$classes[] = 'Symfony\Component\Cache\Adapter\ArrayAdapter';
 $classes[] = 'Symfony\Component\Cache\Adapter\AdapterInterface';
 $classes[] = 'Symfony\Component\Cache\Adapter\AbstractAdapter';
 $classes[] = 'Symfony\Component\Cache\Adapter\FilesystemAdapter';
-$classes[] = 'Symfony\Component\HttpKernel\CacheClearer\Psr6CacheClearer';
 $classes[] = 'Symfony\Component\Cache\Marshaller\DefaultMarshaller';
+$classes[] = 'Symfony\Component\HttpKernel\CacheClearer\Psr6CacheClearer';
 $classes[] = 'Symfony\Component\PropertyAccess\PropertyAccessor';
 $classes[] = 'Symfony\Component\HttpKernel\CacheClearer\ChainCacheClearer';
 $classes[] = 'Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerAggregate';
@@ -566,7 +567,6 @@ $classes[] = 'Symfony\Component\HttpKernel\Controller\ArgumentResolver';
 $classes[] = 'Symfony\Component\HttpKernel\EventListener\LocaleAwareListener';
 $classes[] = 'Symfony\Component\HttpKernel\EventListener\LocaleListener';
 $classes[] = 'PrestaShopBundle\Cache\CacheWarmer';
-$classes[] = 'Symfony\Component\Cache\Adapter\MemcachedAdapter';
 $classes[] = 'Symfony\Component\Mime\MimeTypes';
 $classes[] = 'Symfony\Bridge\Monolog\Handler\ConsoleHandler';
 $classes[] = 'Monolog\Handler\FingersCrossedHandler';
@@ -1789,7 +1789,6 @@ $classes[] = 'PrestaShop\PrestaShop\Core\Kpi\Row\HookableKpiRowFactory';
 $classes[] = 'PrestaShop\PrestaShop\Core\Kpi\Row\KpiRowPresenter';
 $classes[] = 'PrestaShop\PrestaShop\Core\Language\LanguageDefaultFontsCatalog';
 $classes[] = 'PrestaShop\PrestaShop\Core\Language\Pack\Loader\RemoteLanguagePackLoader';
-$classes[] = 'Symfony\Component\Cache\Adapter\ArrayAdapter';
 $classes[] = 'PrestaShop\PrestaShop\Core\Localization\CLDR\DataLayer\LocaleCache';
 $classes[] = 'PrestaShop\PrestaShop\Core\Localization\CLDR\DataLayer\LocaleReference';
 $classes[] = 'PrestaShop\PrestaShop\Core\Localization\CLDR\LocaleDataSource';
