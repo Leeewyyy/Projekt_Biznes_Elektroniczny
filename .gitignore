@@ -1,3 +1,10 @@
-var/cache/
-var/logs/
-app/config/parameters.php
+# Config
+/app/config/parameters.php
+
+# Logs & cache
+/var/cache/*
+/var/logs/*
+
+# Uploaded files, temporary images
+/img/tmp/*
+/upload/*
