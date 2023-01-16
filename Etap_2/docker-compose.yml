@@ -1,0 +1,63 @@
+version: '3.1'
+
+services:
+  # MySQL
+  mysql:
+    image: mysql:latest
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: prestashop
+      MYSQL_ROOT_PASSWORD: kuzynihagrida
+    volumes:
+      - kuzynihagrida-mysql:/var/lib/mysql
+    networks:
+      - local
+
+  # PhpMyAdmin
+  phpmyadmin:
+    image: phpmyadmin:latest
+    restart: always
+    ports:
+      - 3333:80
+    environment:
+      PMA_HOST: mysql
+      UPLOAD_LIMIT: 300M
+    depends_on:
+      - mysql
+    networks:
+      - local
+
+  # Prestashop
+  prestashop:
+    image: prestashop/prestashop:latest
+    environment:
+      DB_SERVER: mysql
+      DB_USER: root
+      DB_PASSWD: kuzynihagrida
+      DB_NAME: prestashop
+      PS_DOMAIN: localhost:8080
+      PS_LANGUAGE: pl
+      PS_FOLDER_ADMIN: admin-kuzynihagrida
+      PS_INSTALL_AUTO: 1
+      PS_INSTALL_FOLDER: install-kuzynihagrida
+      ADMIN_MAIL: kuzynihagrida@gmail.com
+      ADMIN_PASSWD: kuzynihagrida
+    depends_on:
+      - mysql
+    ports:
+      - 8080:80
+    volumes:
+      - kuzynihagrida-prestashop:/var/www/html:rw
+    networks:
+      - local
+
+networks:
+  local:
+    driver: bridge
+
+volumes:
+  kuzynihagrida-prestashop:
+  kuzynihagrida-mysql:
