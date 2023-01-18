@@ -1,0 +1,31 @@
+version: '3.1'
+
+services:
+  be_179934:
+    image: kuzynihagrida1/prestashop:latest
+    environment:
+      DB_SERVER: actina15.maas
+      DB_USER: kuzynihagrida
+      DB_PASSWD: kuzynihagrida
+      DB_NAME: kuzynihagrida
+      PS_DOMAIN: localhost:17993
+      PS_LANGUAGE: pl
+      PS_FOLDER_ADMIN: admin-kuzynihagrida
+      PS_INSTALL_AUTO: 1
+      PS_INSTALL_FOLDER: install-kuzynihagrida
+      ADMIN_MAIL: kuzynihagrida@gmail.com
+      ADMIN_PASSWD: Kuzyn1!2@
+    ports:
+      - 17993:80
+    volumes: 
+      - kuzynihagrida-prestashop:/var/www/html
+    networks:
+      - admin_mysql
+
+volumes:
+  kuzynihagrida-prestashop:
+
+networks:
+  admin_mysql:
+    external:
+      name: admin-mysql_default
