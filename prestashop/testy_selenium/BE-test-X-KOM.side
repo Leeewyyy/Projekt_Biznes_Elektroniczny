@@ -4,99 +4,49 @@
   "name": "BE-test-X-KOM",
   "url": "https://127.0.0.1",
   "tests": [{
-    "id": "43f5e853-12c4-47b2-bcac-059964827fd5",
+    "id": "5a865e20-832e-4420-ac2c-d1f8aa182d0b",
     "name": "zlozenie_zamowienia_z_rejestracja",
     "commands": [{
-      "id": "15b56d96-d032-4602-be87-164589ff5edc",
+      "id": "9f285a93-37bc-4ff1-95c3-9650fad8fda1",
       "comment": "",
       "command": "open",
-      "target": "/",
+      "target": "http://localhost/index.php",
       "targets": [],
       "value": ""
     }, {
-      "id": "39635bda-c506-4cbb-ae03-fce11033d725",
+      "id": "93805ddd-76b6-4f0a-a04f-3b36ab726333",
       "comment": "",
       "command": "setWindowSize",
-      "target": "1920x878",
+      "target": "1552x832",
       "targets": [],
       "value": ""
     }, {
-      "id": "e17c052c-fe19-43b4-ad34-9d7db614d7f5",
-      "comment": "",
-      "command": "mouseDownAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1919,556"
-    }, {
-      "id": "c957b7fc-1fc7-4df9-9bb4-2039b10b51de",
-      "comment": "",
-      "command": "mouseMoveAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1919,556"
-    }, {
-      "id": "c931ca66-5b6f-4f0f-8005-1967759d5af5",
-      "comment": "",
-      "command": "mouseUpAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1919,556"
-    }, {
-      "id": "966a878f-d2eb-4ec7-a292-8d05e0408c9a",
+      "id": "4eea0f86-dc4d-4713-85ea-2fc1f80f9ba7",
       "comment": "",
       "command": "click",
-      "target": "css=.featured-products:nth-child(2) .js-product:nth-child(1) img",
+      "target": "css=#category-22 > .dropdown-item",
       "targets": [
-        ["css=.featured-products:nth-child(2) .js-product:nth-child(1) img", "css:finder"],
-        ["xpath=//img[@alt='Core i9-13900K']", "xpath:img"],
-        ["xpath=//section[@id='content']/section/div/div/article/div/div/a/img", "xpath:idRelative"],
-        ["xpath=//div/a/img", "xpath:position"]
+        ["css=#category-22 > .dropdown-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Smartfony i telefony')]", "xpath:link"],
+        ["xpath=//li[@id='category-22']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/index.php?id_category=22&controller=category']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "79485104-ab50-43ff-a7ec-f925472b09e1",
+      "id": "af9d3179-0d0a-4991-9a5d-97d8c0b464fa",
       "comment": "",
       "command": "click",
-      "target": "css=.touchspin-up",
+      "target": "css=.js-product:nth-child(1) img",
       "targets": [
-        ["css=.touchspin-up", "css:finder"],
-        ["xpath=//form[@id='add-to-cart-or-refresh']/div[2]/div/div/div/span[3]/button/i", "xpath:idRelative"],
-        ["xpath=//button/i", "xpath:position"]
+        ["css=.js-product:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='ZenFone 8 8/128GB Black']", "xpath:img"],
+        ["xpath=//div[@id='js-product-list']/div/div/article/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//article/div/div/a/img", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "1435ac2a-321c-4ce0-be59-a2bd85838434",
-      "comment": "",
-      "command": "click",
-      "target": "css=.touchspin-up",
-      "targets": [
-        ["css=.touchspin-up", "css:finder"],
-        ["xpath=//form[@id='add-to-cart-or-refresh']/div[2]/div/div/div/span[3]/button/i", "xpath:idRelative"],
-        ["xpath=//button/i", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "a873cc66-0763-48bd-8f52-f8b0d9f77751",
-      "comment": "",
-      "command": "click",
-      "target": "css=.touchspin-up",
-      "targets": [
-        ["css=.touchspin-up", "css:finder"],
-        ["xpath=//form[@id='add-to-cart-or-refresh']/div[2]/div/div/div/span[3]/button/i", "xpath:idRelative"],
-        ["xpath=//button/i", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "c073963b-305c-47e0-8f86-6cfc019520e9",
+      "id": "9e47dd0e-7873-4e05-b7e9-17867eb2b041",
       "comment": "",
       "command": "click",
       "target": "css=.add-to-cart",
@@ -108,7 +58,7 @@
       ],
       "value": ""
     }, {
-      "id": "cb433383-5c44-4a24-8598-1853e3628594",
+      "id": "cc324562-f82a-413b-94c7-fe4d53ccf884",
       "comment": "",
       "command": "click",
       "target": "css=.cart-content-btn > .btn-secondary",
@@ -120,116 +70,31 @@
       ],
       "value": ""
     }, {
-      "id": "b5136f80-27b3-4e6e-89e7-eab04f7503b6",
+      "id": "d6e9deac-8089-4545-b7bf-d66b2766f891",
       "comment": "",
       "command": "click",
-      "target": "css=.logo",
+      "target": "css=li:nth-child(2) span",
       "targets": [
-        ["css=.logo", "css:finder"],
-        ["xpath=//img[@alt='BESklep']", "xpath:img"],
-        ["xpath=//div[@id='_desktop_logo']/a/img", "xpath:idRelative"],
-        ["xpath=//img", "xpath:position"]
+        ["css=li:nth-child(2) span", "css:finder"],
+        ["xpath=//section[@id='wrapper']/div/nav/ol/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Smartfony i telefony')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "63e61135-4687-4062-9373-0274fe1af570",
-      "comment": "",
-      "command": "mouseDownAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1919,1247"
-    }, {
-      "id": "54e143ea-e885-456d-b8f3-f83ef0093a15",
-      "comment": "",
-      "command": "mouseMoveAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1919,1247"
-    }, {
-      "id": "07ecc9e0-3f94-43f3-8300-6d69820249ce",
-      "comment": "",
-      "command": "mouseUpAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1919,1247"
-    }, {
-      "id": "83111040-76c8-46c6-a986-cd9110035213",
+      "id": "6706cfd7-045e-4905-8971-1e298d80b1da",
       "comment": "",
       "command": "click",
-      "target": "css=.featured-products:nth-child(3) .js-product:nth-child(2) img",
+      "target": "css=.js-product:nth-child(2) img",
       "targets": [
-        ["css=.featured-products:nth-child(3) .js-product:nth-child(2) img", "css:finder"],
-        ["xpath=//img[@alt='GXT980 REDEX WIRELESS MOUSE']", "xpath:img"],
-        ["xpath=//section[@id='content']/section[2]/div/div[2]/article/div/div/a/img", "xpath:idRelative"],
-        ["xpath=//section[2]/div/div[2]/article/div/div/a/img", "xpath:position"]
+        ["css=.js-product:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='Galaxy M13 4/64GB Green']", "xpath:img"],
+        ["xpath=//div[@id='js-product-list']/div/div[2]/article/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/article/div/div/a/img", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "05149599-48c8-4275-b573-af406ac1ed80",
-      "comment": "",
-      "command": "click",
-      "target": "css=.touchspin-up",
-      "targets": [
-        ["css=.touchspin-up", "css:finder"],
-        ["xpath=//form[@id='add-to-cart-or-refresh']/div[2]/div/div/div/span[3]/button/i", "xpath:idRelative"],
-        ["xpath=//button/i", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "33278e70-44be-46c9-ae21-0dfb726b6b97",
-      "comment": "",
-      "command": "click",
-      "target": "css=.touchspin-up",
-      "targets": [
-        ["css=.touchspin-up", "css:finder"],
-        ["xpath=//form[@id='add-to-cart-or-refresh']/div[2]/div/div/div/span[3]/button/i", "xpath:idRelative"],
-        ["xpath=//button/i", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "c6c407ed-fcc6-4b63-8cdf-528645471c10",
-      "comment": "",
-      "command": "click",
-      "target": "css=.touchspin-up",
-      "targets": [
-        ["css=.touchspin-up", "css:finder"],
-        ["xpath=//form[@id='add-to-cart-or-refresh']/div[2]/div/div/div/span[3]/button/i", "xpath:idRelative"],
-        ["xpath=//button/i", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "152d882d-87e5-4ee2-a8a5-7a69ab7b6c0b",
-      "comment": "",
-      "command": "click",
-      "target": "css=.touchspin-up",
-      "targets": [
-        ["css=.touchspin-up", "css:finder"],
-        ["xpath=//form[@id='add-to-cart-or-refresh']/div[2]/div/div/div/span[3]/button/i", "xpath:idRelative"],
-        ["xpath=//button/i", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "a64ffa71-451a-44e5-bb1c-a269571a86f5",
-      "comment": "",
-      "command": "click",
-      "target": "css=.touchspin-up",
-      "targets": [
-        ["css=.touchspin-up", "css:finder"],
-        ["xpath=//form[@id='add-to-cart-or-refresh']/div[2]/div/div/div/span[3]/button/i", "xpath:idRelative"],
-        ["xpath=//button/i", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "d7843609-560a-4820-9f43-a84dd416d0aa",
+      "id": "87d8c59b-3c3a-4d65-bd60-d1376b6ca962",
       "comment": "",
       "command": "click",
       "target": "css=.add-to-cart",
@@ -241,7 +106,19 @@
       ],
       "value": ""
     }, {
-      "id": "677baca4-2dd9-4cea-b240-cd67eaa6e2ed",
+      "id": "f1698f2b-21d4-4642-8f27-83972beceba9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.bootstrap-touchspin-down",
+      "targets": [
+        ["css=.bootstrap-touchspin-down", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='add-to-cart-or-refresh']/div[2]/div/div/div/span[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86172c87-3f4d-48e5-92eb-060c09e4537b",
       "comment": "",
       "command": "click",
       "target": "css=.cart-content-btn > .btn-secondary",
@@ -253,30 +130,440 @@
       ],
       "value": ""
     }, {
-      "id": "8f3abcf6-b346-4b1a-ba1c-895307af5672",
+      "id": "beca401e-08db-4d32-9d81-f18042fbfa63",
       "comment": "",
       "command": "click",
-      "target": "css=.header .hidden-sm-down",
+      "target": "css=li:nth-child(2) span",
       "targets": [
-        ["css=.header .hidden-sm-down", "css:finder"],
-        ["xpath=//div[@id='_desktop_cart']/div/div/a/span", "xpath:idRelative"],
-        ["xpath=//div[2]/div[2]/div/div/a/span", "xpath:position"],
-        ["xpath=//span[contains(.,'Koszyk')]", "xpath:innerText"]
+        ["css=li:nth-child(2) span", "css:finder"],
+        ["xpath=//section[@id='wrapper']/div/nav/ol/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Smartfony i telefony')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "ac3d3713-69cc-4389-8a70-bede84b350df",
+      "id": "7b5760c8-47d9-499f-9072-03e58fcdd83b",
       "comment": "",
       "command": "click",
-      "target": "css=.cart-item:nth-child(1) .btn:nth-child(2) > .material-icons:nth-child(1)",
+      "target": "css=.js-product:nth-child(3) img",
       "targets": [
-        ["css=.cart-item:nth-child(1) .btn:nth-child(2) > .material-icons:nth-child(1)", "css:finder"],
-        ["xpath=//section[@id='main']/div/div/div/div[2]/ul/li/div/div[3]/div/div[2]/div/div/div/span[3]/button[2]/i", "xpath:idRelative"],
-        ["xpath=//button[2]/i", "xpath:position"]
+        ["css=.js-product:nth-child(3) img", "css:finder"],
+        ["xpath=//img[@alt='Redmi 10C 4/128GB Graphite...']", "xpath:img"],
+        ["xpath=//div[@id='js-product-list']/div/div[3]/article/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/article/div/div/a/img", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "8a382f19-d20c-474e-874b-2206a94bb1e2",
+      "id": "07a5ed52-5e72-439d-9a8c-153cd365f32a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart",
+      "targets": [
+        ["css=.add-to-cart", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97c93ff1-cdd1-4ab5-9c29-56b114d2b70e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-content-btn > .btn-secondary",
+      "targets": [
+        ["css=.cart-content-btn > .btn-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[19]", "xpath:attributes"],
+        ["xpath=//div[@id='blockcart-modal']/div/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8b68864-6ee4-4e79-8303-ffbb229ef9d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) span",
+      "targets": [
+        ["css=li:nth-child(2) span", "css:finder"],
+        ["xpath=//section[@id='wrapper']/div/nav/ol/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Smartfony i telefony')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d649dbc-3943-409a-9467-0e456c9bd7f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-product:nth-child(4) img",
+      "targets": [
+        ["css=.js-product:nth-child(4) img", "css:finder"],
+        ["xpath=//img[@alt='Galaxy S20 FE 5G Fan...']", "xpath:img"],
+        ["xpath=//div[@id='js-product-list']/div/div[4]/article/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[4]/article/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca4efd32-a75f-4467-b83a-4bf2ab838290",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart",
+      "targets": [
+        ["css=.add-to-cart", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57a87aa8-c00a-48c0-ba40-81c292f33a0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-content-btn > .btn-secondary",
+      "targets": [
+        ["css=.cart-content-btn > .btn-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[19]", "xpath:attributes"],
+        ["xpath=//div[@id='blockcart-modal']/div/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44bc466a-50fa-4f11-be36-4a5f69617885",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) span",
+      "targets": [
+        ["css=li:nth-child(2) span", "css:finder"],
+        ["xpath=//section[@id='wrapper']/div/nav/ol/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Smartfony i telefony')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03d0840d-61a9-491a-b3be-de494d8141c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-product:nth-child(5) img",
+      "targets": [
+        ["css=.js-product:nth-child(5) img", "css:finder"],
+        ["xpath=//img[@alt='moto g60 6/128GB Dynamic...']", "xpath:img"],
+        ["xpath=//div[@id='js-product-list']/div/div[5]/article/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[5]/article/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19d300a8-59e9-44d6-b0f6-e2bdca224673",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart",
+      "targets": [
+        ["css=.add-to-cart", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb0a5242-043b-47ee-ac45-70fe827064e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-content-btn > .btn-secondary",
+      "targets": [
+        ["css=.cart-content-btn > .btn-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[19]", "xpath:attributes"],
+        ["xpath=//div[@id='blockcart-modal']/div/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f952cc79-cafa-424a-9386-80be50edbb19",
+      "comment": "",
+      "command": "click",
+      "target": "css=#category-39 > .dropdown-item",
+      "targets": [
+        ["css=#category-39 > .dropdown-item", "css:finder"],
+        ["xpath=//li[@id='category-39']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/index.php?id_category=39&controller=category']", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08986303-96d4-4b9a-adfc-c3d3fc25ca00",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .subcategory-name",
+      "targets": [
+        ["css=li:nth-child(1) .subcategory-name", "css:finder"],
+        ["xpath=(//a[contains(text(),'Procesory AMD Ryzen 5')])[3]", "xpath:link"],
+        ["xpath=//div[@id='subcategories']/ul/li/h5/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://localhost/index.php?id_category=23&controller=category'])[4]", "xpath:href"],
+        ["xpath=//h5/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "293d1caa-c3fe-4e49-a397-df93c496959f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-product:nth-child(1) img",
+      "targets": [
+        ["css=.js-product:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Ryzen 5 5600X']", "xpath:img"],
+        ["xpath=//div[@id='js-product-list']/div/div/article/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//article/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf9209b9-3f47-47b1-b4d6-21d174ad7460",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart",
+      "targets": [
+        ["css=.add-to-cart", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83b5a442-5720-4bba-8649-18df2ac49c18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-content-btn > .btn-secondary",
+      "targets": [
+        ["css=.cart-content-btn > .btn-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[19]", "xpath:attributes"],
+        ["xpath=//div[@id='blockcart-modal']/div/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41fd62bb-f56b-4b1e-af58-0f10cf08c899",
+      "comment": "",
+      "command": "click",
+      "target": "css=ol > li:nth-child(3) span",
+      "targets": [
+        ["css=ol > li:nth-child(3) span", "css:finder"],
+        ["xpath=//section[@id='wrapper']/div/nav/ol/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//ol/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Procesory AMD Ryzen 5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c2c90ff-1e32-42be-afc9-d024c9f4cba3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-product:nth-child(2) img",
+      "targets": [
+        ["css=.js-product:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='Ryzen 5 5600']", "xpath:img"],
+        ["xpath=//div[@id='js-product-list']/div/div[2]/article/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/article/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1676536-96a7-4700-a5f6-8cc527734940",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart",
+      "targets": [
+        ["css=.add-to-cart", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "837f59c8-9391-4400-968f-0992474a02ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-content-btn > .btn-secondary",
+      "targets": [
+        ["css=.cart-content-btn > .btn-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[19]", "xpath:attributes"],
+        ["xpath=//div[@id='blockcart-modal']/div/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "deecf36c-3add-4453-b48b-639a2254b34a",
+      "comment": "",
+      "command": "click",
+      "target": "css=ol > li:nth-child(3) span",
+      "targets": [
+        ["css=ol > li:nth-child(3) span", "css:finder"],
+        ["xpath=//section[@id='wrapper']/div/nav/ol/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//ol/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Procesory AMD Ryzen 5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "189d4cb2-4e61-4a73-8b2c-06474e1bcef3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-product:nth-child(3) img",
+      "targets": [
+        ["css=.js-product:nth-child(3) img", "css:finder"],
+        ["xpath=//img[@alt='Ryzen 5 5500']", "xpath:img"],
+        ["xpath=//div[@id='js-product-list']/div/div[3]/article/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/article/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5875e623-629b-4a7f-8d44-887d42fa9b1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart",
+      "targets": [
+        ["css=.add-to-cart", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11d42429-9d8b-4722-a90a-c483620d8542",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-content-btn > .btn-secondary",
+      "targets": [
+        ["css=.cart-content-btn > .btn-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[19]", "xpath:attributes"],
+        ["xpath=//div[@id='blockcart-modal']/div/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7579c472-6d9f-4df8-8e88-b12e6938ec88",
+      "comment": "",
+      "command": "click",
+      "target": "css=ol > li:nth-child(3) span",
+      "targets": [
+        ["css=ol > li:nth-child(3) span", "css:finder"],
+        ["xpath=//section[@id='wrapper']/div/nav/ol/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//ol/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Procesory AMD Ryzen 5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "345cfdf2-307b-4f20-9652-d8509e3ffa6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-product:nth-child(4) img",
+      "targets": [
+        ["css=.js-product:nth-child(4) img", "css:finder"],
+        ["xpath=//img[@alt='Ryzen 5 5600G']", "xpath:img"],
+        ["xpath=//div[@id='js-product-list']/div/div[4]/article/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[4]/article/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "683da2ee-a6a4-4370-bd63-70829aa8406d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart",
+      "targets": [
+        ["css=.add-to-cart", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f5d9771-9338-4a73-80c0-69d1a25aa19b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-content-btn > .btn-secondary",
+      "targets": [
+        ["css=.cart-content-btn > .btn-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[19]", "xpath:attributes"],
+        ["xpath=//div[@id='blockcart-modal']/div/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39fb7061-99a4-4f7d-9413-de39d321a409",
+      "comment": "",
+      "command": "click",
+      "target": "css=ol > li:nth-child(3) span",
+      "targets": [
+        ["css=ol > li:nth-child(3) span", "css:finder"],
+        ["xpath=//section[@id='wrapper']/div/nav/ol/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//ol/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Procesory AMD Ryzen 5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7946d68c-5cf5-4b81-9686-8a3b9bb698af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-product:nth-child(5) img",
+      "targets": [
+        ["css=.js-product:nth-child(5) img", "css:finder"],
+        ["xpath=//img[@alt='Ryzen 5 3600']", "xpath:img"],
+        ["xpath=//div[@id='js-product-list']/div/div[5]/article/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[5]/article/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a11fe097-358c-4aa6-96d8-b34369b38fd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart",
+      "targets": [
+        ["css=.add-to-cart", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='add-to-cart-or-refresh']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6ef1c88-bbfb-459f-b085-0b71a5cd761e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-content-btn > .btn-secondary",
+      "targets": [
+        ["css=.cart-content-btn > .btn-secondary", "css:finder"],
+        ["xpath=(//button[@type='button'])[19]", "xpath:attributes"],
+        ["xpath=//div[@id='blockcart-modal']/div/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f235165-5e97-4c28-be17-0524c88b6fe8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-products-count:nth-child(3)",
+      "targets": [
+        ["css=.cart-products-count:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='_desktop_cart']/div/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'(10)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "175146eb-fad2-48f8-a9bb-3ed42de81bf4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-item:nth-child(1) .col-md-2 .material-icons",
+      "targets": [
+        ["css=.cart-item:nth-child(1) .col-md-2 .material-icons", "css:finder"],
+        ["xpath=//section[@id='main']/div/div/div/div[2]/ul/li/div/div[3]/div/div[3]/div/a/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "186ff29f-16bd-4613-96fb-e650aadfbb3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.user-info .hidden-sm-down",
+      "targets": [
+        ["css=.user-info .hidden-sm-down", "css:finder"],
+        ["xpath=//div[@id='_desktop_user_info']/div/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Zaloguj się')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c83ed104-d493-4bfe-adf7-dbbbdafa2e62",
       "comment": "",
       "command": "click",
       "target": "linkText=Nie masz konta? Załóż je tutaj",
@@ -285,13 +572,27 @@
         ["css=.no-account > a", "css:finder"],
         ["xpath=//a[contains(text(),'Nie masz konta? Załóż je tutaj')]", "xpath:link"],
         ["xpath=//div[@id='content']/div/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'https://127.0.0.1/index.php?controller=registration')]", "xpath:href"],
+        ["xpath=//a[@href='http://localhost/index.php?controller=registration']", "xpath:href"],
         ["xpath=//section/div/div/a", "xpath:position"],
         ["xpath=//a[contains(.,'Nie masz konta? Załóż je tutaj')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "9adf3986-0485-40c0-97e2-e88c6bcf8a75",
+      "id": "69a2b17b-1a1b-4a77-aa0f-0c845db388a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=field-id_gender-1",
+      "targets": [
+        ["id=field-id_gender-1", "id"],
+        ["name=id_gender", "name"],
+        ["css=#field-id_gender-1", "css:finder"],
+        ["xpath=//input[@id='field-id_gender-1']", "xpath:attributes"],
+        ["xpath=//form[@id='customer-form']/div/div/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e06fdd98-9bb3-4c4d-b2d6-806723fa5834",
       "comment": "",
       "command": "click",
       "target": "id=field-firstname",
@@ -305,7 +606,7 @@
       ],
       "value": ""
     }, {
-      "id": "2c4779d7-5979-4c2c-a839-97e92a64b135",
+      "id": "89db3350-d558-43ba-a295-705a5040ceb1",
       "comment": "",
       "command": "type",
       "target": "id=field-firstname",
@@ -317,9 +618,9 @@
         ["xpath=//form[@id='customer-form']/div/div[2]/div/input", "xpath:idRelative"],
         ["xpath=//div/input", "xpath:position"]
       ],
-      "value": "test-name"
+      "value": "kuzyn"
     }, {
-      "id": "1274f934-b526-4d42-80d2-0ab5b06d17c8",
+      "id": "16adb13d-ecd2-413c-88fd-553d0e3fbb25",
       "comment": "",
       "command": "click",
       "target": "id=field-lastname",
@@ -333,7 +634,7 @@
       ],
       "value": ""
     }, {
-      "id": "610fedbb-7472-42ce-b003-45577fad098a",
+      "id": "bc72a862-cff8-423f-a2d0-af1d2503d686",
       "comment": "",
       "command": "type",
       "target": "id=field-lastname",
@@ -345,9 +646,9 @@
         ["xpath=//form[@id='customer-form']/div/div[3]/div/input", "xpath:idRelative"],
         ["xpath=//div[3]/div/input", "xpath:position"]
       ],
-      "value": "test-surname"
+      "value": "hagrida"
     }, {
-      "id": "99f6b3df-6e76-434e-88e7-0dd2c7cec620",
+      "id": "c4f19731-7703-4f5e-a18d-22cf773335a8",
       "comment": "",
       "command": "click",
       "target": "id=field-email",
@@ -361,14 +662,14 @@
       ],
       "value": ""
     }, {
-      "id": "54da44de-a5c6-4b91-8752-73a21e2a585a",
+      "id": "343b01a7-5063-4822-ba4c-825505ce79a8",
       "comment": "",
       "command": "executeScript",
-      "target": "return \"kuzynihagrida\"+Date.now()+\"@gmail.com\"",
+      "target": "return \"kuzynihagrida+\"+Date.now()+\"@gmail.com\"",
       "targets": [],
       "value": "email"
     }, {
-      "id": "b329740e-4890-49b1-a2fd-f152232f6d14",
+      "id": "e513524c-a229-4d22-8d09-1afc51fabf1e",
       "comment": "",
       "command": "type",
       "target": "id=field-email",
@@ -382,18 +683,7 @@
       ],
       "value": "${email}"
     }, {
-      "id": "caac35d4-d69b-4fc0-9929-00392dd8c035",
-      "comment": "",
-      "command": "click",
-      "target": "css=#customer-form > div",
-      "targets": [
-        ["css=#customer-form > div", "css:finder"],
-        ["xpath=//form[@id='customer-form']/div", "xpath:idRelative"],
-        ["xpath=//form/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "a278eff0-4106-49d2-8607-3a440f30d10c",
+      "id": "2b2839e4-9be0-41c2-a6a3-bd4c9daeff6c",
       "comment": "",
       "command": "click",
       "target": "id=field-password",
@@ -407,61 +697,34 @@
       ],
       "value": ""
     }, {
-      "id": "c98a2995-3935-4f62-9429-fe1ea872d6ef",
+      "id": "63cd2ce2-1f52-4a59-b834-d0599e557d0e",
+      "comment": "",
+      "command": "type",
+      "target": "id=field-password",
+      "targets": [
+        ["id=field-password", "id"],
+        ["name=password", "name"],
+        ["css=#field-password", "css:finder"],
+        ["xpath=//input[@id='field-password']", "xpath:attributes"],
+        ["xpath=//form[@id='customer-form']/div/div[5]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Kuzyn1!2@"
+    }, {
+      "id": "0e7fe6fc-23da-4121-842a-95915d832e92",
       "comment": "",
       "command": "click",
-      "target": "css=.form-group:nth-child(7) > .col-md-6 label",
+      "target": "name=customer_privacy",
       "targets": [
-        ["css=.form-group:nth-child(7) > .col-md-6 label", "css:finder"],
-        ["xpath=//form[@id='customer-form']/div/div[7]/div/span/label", "xpath:idRelative"],
-        ["xpath=//span/label", "xpath:position"],
-        ["xpath=//label[contains(.,' Otrzymuj oferty od naszych partnerów')]", "xpath:innerText"]
+        ["name=customer_privacy", "name"],
+        ["css=.form-group:nth-child(9) input", "css:finder"],
+        ["xpath=//input[@name='customer_privacy']", "xpath:attributes"],
+        ["xpath=//form[@id='customer-form']/div/div[9]/div/span/label/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/span/label/input", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "29b36551-7210-49ed-8e21-51f0ab8c8960",
-      "comment": "",
-      "command": "mouseDownAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1919,870"
-    }, {
-      "id": "bb4a00c7-c303-47d6-82a6-444910894547",
-      "comment": "",
-      "command": "mouseMoveAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1919,870"
-    }, {
-      "id": "40b00a35-556d-4c80-b7bc-e281c063214b",
-      "comment": "",
-      "command": "mouseUpAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1919,870"
-    }, {
-      "id": "12c66d2b-03d7-488b-97bb-93a03ca9ee7c",
-      "comment": "",
-      "command": "click",
-      "target": "css=.form-group:nth-child(9) em",
-      "targets": [
-        ["css=.form-group:nth-child(9) em", "css:finder"],
-        ["xpath=//form[@id='customer-form']/div/div[9]/div/span/label/em", "xpath:idRelative"],
-        ["xpath=//div[9]/div/span/label/em", "xpath:position"],
-        ["xpath=//em[contains(.,'Udostępnione przez Ciebie dane osobowe są wykorzystywane w celu udzielania odpowiedzi na zapytania, przetwarzania zamówień lub umożliwiania dostępu do konkretnych informacji. Przysługuje Ci prawo do modyfikowania oraz usuwania wszelkich danych osobowych zamieszczonych na stronie „Moje konto”.')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "1018c148-6cb1-4371-a948-1e17ff75ced1",
+      "id": "ce844a21-43a0-434e-ae59-6916353358e3",
       "comment": "",
       "command": "click",
       "target": "css=.form-control-submit",
@@ -473,37 +736,7 @@
       ],
       "value": ""
     }, {
-      "id": "4c016756-0293-4d0f-bdbb-01a2f6e90e7f",
-      "comment": "",
-      "command": "mouseDownAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1919,35"
-    }, {
-      "id": "20dfa154-f8f5-4e75-ba9e-6f4f2aed15a6",
-      "comment": "",
-      "command": "mouseMoveAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1919,35"
-    }, {
-      "id": "cdf4a6e1-5d9f-400d-b16c-16edbb472883",
-      "comment": "",
-      "command": "mouseUpAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1919,35"
-    }, {
-      "id": "7213e0e8-7404-45b9-8d59-a2dbf8134bae",
+      "id": "9a1f6014-bdbf-4e91-8669-e725c0fcd04d",
       "comment": "",
       "command": "click",
       "target": "css=a:nth-child(1) > .hidden-sm-down",
@@ -515,7 +748,7 @@
       ],
       "value": ""
     }, {
-      "id": "1ee23ff8-97e2-4d8f-bdbf-3fff6523295c",
+      "id": "1510003b-3996-4869-b21c-4cd00f792dd2",
       "comment": "",
       "command": "click",
       "target": "css=.text-sm-center > .btn",
@@ -523,56 +756,25 @@
         ["css=.text-sm-center > .btn", "css:finder"],
         ["xpath=//a[contains(text(),'Przejdź do realizacji zamówienia')]", "xpath:link"],
         ["xpath=//section[@id='main']/div/div[2]/div/div[2]/div/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'https://127.0.0.1/zamówienie')]", "xpath:href"],
+        ["xpath=//a[@href='http://localhost/index.php?controller=order']", "xpath:href"],
         ["xpath=//div[2]/div/div[2]/div/a", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "79189081-d63f-45c7-9626-80aa638bff68",
-      "comment": "",
-      "command": "mouseDownAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1919,454"
-    }, {
-      "id": "168a8895-ccd2-445a-b75c-57ed0b9557de",
-      "comment": "",
-      "command": "mouseMoveAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1919,454"
-    }, {
-      "id": "efca06e0-2802-497d-872d-6447164e0317",
-      "comment": "",
-      "command": "mouseUpAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "1919,454"
-    }, {
-      "id": "0c9b23ef-bcbc-4d9f-b23a-2c18302c6fbc",
+      "id": "03e9f7cc-8a73-48c1-a5ad-ecb1819df552",
       "comment": "",
       "command": "click",
-      "target": "id=field-address1",
+      "target": "name=confirm-addresses",
       "targets": [
-        ["id=field-address1", "id"],
-        ["name=address1", "name"],
-        ["css=#field-address1", "css:finder"],
-        ["xpath=//input[@id='field-address1']", "xpath:attributes"],
-        ["xpath=//div[@id='delivery-address']/div/section/div[6]/div/input", "xpath:idRelative"],
-        ["xpath=//div[6]/div/input", "xpath:position"]
+        ["name=confirm-addresses", "name"],
+        ["css=.continue:nth-child(2)", "css:finder"],
+        ["xpath=//button[@name='confirm-addresses']", "xpath:attributes"],
+        ["xpath=//div[@id='delivery-address']/div/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "d790c4cb-b085-496e-a80f-7c4c4363da6c",
+      "id": "e0d3f9eb-075b-49be-ad8c-193c903df22f",
       "comment": "",
       "command": "type",
       "target": "id=field-address1",
@@ -584,9 +786,9 @@
         ["xpath=//div[@id='delivery-address']/div/section/div[6]/div/input", "xpath:idRelative"],
         ["xpath=//div[6]/div/input", "xpath:position"]
       ],
-      "value": "testowa 21"
+      "value": "kuzynowo"
     }, {
-      "id": "bcafd414-2cdd-4aa8-8a3d-038f8769561f",
+      "id": "5d2b5771-8f9e-4909-b129-0ca91747df08",
       "comment": "",
       "command": "click",
       "target": "id=field-postcode",
@@ -600,7 +802,7 @@
       ],
       "value": ""
     }, {
-      "id": "a894b501-5c21-4092-a858-cb82a8ed09d3",
+      "id": "132a0335-7a01-4f10-bff6-c52a0a7bb8c5",
       "comment": "",
       "command": "type",
       "target": "id=field-postcode",
@@ -614,7 +816,7 @@
       ],
       "value": "00-000"
     }, {
-      "id": "eef10442-8aa0-4285-9182-e262e6495d45",
+      "id": "a40f7b95-49b3-4702-9823-0fdd3a7b59c6",
       "comment": "",
       "command": "click",
       "target": "id=field-city",
@@ -628,37 +830,7 @@
       ],
       "value": ""
     }, {
-      "id": "85b8ceb1-8f49-484d-8319-f4cf2329bd71",
-      "comment": "",
-      "command": "mouseDownAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "549,291"
-    }, {
-      "id": "2c97bda4-45f6-4db8-871e-2d86bc414c20",
-      "comment": "",
-      "command": "mouseMoveAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "549,291"
-    }, {
-      "id": "f38894b1-8b8b-4b23-99f6-a836dd9c0835",
-      "comment": "",
-      "command": "mouseUpAt",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": "549,291"
-    }, {
-      "id": "5af585dd-f32d-4a3e-9d0f-e0697cea912f",
+      "id": "14c503bc-a499-40cc-b112-167c4b100ca4",
       "comment": "",
       "command": "type",
       "target": "id=field-city",
@@ -670,9 +842,20 @@
         ["xpath=//div[@id='delivery-address']/div/section/div[9]/div/input", "xpath:idRelative"],
         ["xpath=//div[9]/div/input", "xpath:position"]
       ],
-      "value": "Testowe"
+      "value": "kuzynowo"
     }, {
-      "id": "65aff6ea-ec4e-4f17-9748-1c91a8d7f4e4",
+      "id": "3bea8852-ed07-4f39-90aa-708a906c99fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#content > .row",
+      "targets": [
+        ["css=#content > .row", "css:finder"],
+        ["xpath=//section[@id='content']/div", "xpath:idRelative"],
+        ["xpath=//div/section/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7ec6e3c-6576-4423-9df4-680a569c7fb6",
       "comment": "",
       "command": "click",
       "target": "name=confirm-addresses",
@@ -685,20 +868,20 @@
       ],
       "value": ""
     }, {
-      "id": "6fe9e353-0aaa-4d64-9292-91d667b78566",
+      "id": "644770c3-5e5e-4f29-9bc8-8c9736e803e7",
       "comment": "",
       "command": "click",
-      "target": "id=delivery_option_3",
+      "target": "id=delivery_option_5",
       "targets": [
-        ["id=delivery_option_3", "id"],
-        ["css=#delivery_option_3", "css:finder"],
-        ["xpath=//input[@id='delivery_option_3']", "xpath:attributes"],
+        ["id=delivery_option_5", "id"],
+        ["css=#delivery_option_5", "css:finder"],
+        ["xpath=//input[@id='delivery_option_5']", "xpath:attributes"],
         ["xpath=//form[@id='js-delivery']/div/div/div[7]/div/span/input", "xpath:idRelative"],
         ["xpath=//div[7]/div/span/input", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "bfa6598e-9828-4e1f-9c80-14b76d56d3fc",
+      "id": "5c96d94d-3767-4cc6-9df9-ab8447a42331",
       "comment": "",
       "command": "click",
       "target": "name=confirmDeliveryOption",
@@ -711,7 +894,7 @@
       ],
       "value": ""
     }, {
-      "id": "85793503-41fe-44f4-b9ec-b91de79a304c",
+      "id": "012482e6-39b7-46d6-90ee-137da7750b97",
       "comment": "",
       "command": "click",
       "target": "id=payment-option-2",
@@ -724,7 +907,7 @@
       ],
       "value": ""
     }, {
-      "id": "d40b1f49-4db1-470a-8a4e-9b2f99fabfcf",
+      "id": "a45eec01-88c7-47e2-92cc-dd1451db21c5",
       "comment": "",
       "command": "click",
       "target": "id=conditions_to_approve[terms-and-conditions]",
@@ -738,7 +921,7 @@
       ],
       "value": ""
     }, {
-      "id": "a376604e-cc41-4422-b672-82adb1e2ffd7",
+      "id": "04800adc-6a3a-4f4f-ba5f-8f20ffc424fe",
       "comment": "",
       "command": "click",
       "target": "css=.ps-shown-by-js > .btn",
@@ -750,7 +933,7 @@
       ],
       "value": ""
     }, {
-      "id": "210f86d2-2335-49fc-9ca4-4e0efdcd57d5",
+      "id": "8548ccf1-300f-4dce-a834-7025d0242993",
       "comment": "",
       "command": "click",
       "target": "css=.account > .hidden-sm-down",
@@ -758,43 +941,30 @@
         ["css=.account > .hidden-sm-down", "css:finder"],
         ["xpath=//div[@id='_desktop_user_info']/div/a[2]/span", "xpath:idRelative"],
         ["xpath=//span", "xpath:position"],
-        ["xpath=//span[contains(.,'test-name test-surname')]", "xpath:innerText"]
+        ["xpath=//span[contains(.,'kuzyn hagrida')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "0fc157be-0044-4c25-9bc6-992af9072fcb",
+      "id": "e9b54128-a265-421d-aa76-fdfdc5f8bf0a",
       "comment": "",
       "command": "click",
-      "target": "css=#history-link > .link-item",
+      "target": "css=#history-link .material-icons",
       "targets": [
-        ["css=#history-link > .link-item", "css:finder"],
-        ["xpath=//a[@id='history-link']/span", "xpath:idRelative"],
-        ["xpath=//a[3]/span", "xpath:position"]
+        ["css=#history-link .material-icons", "css:finder"],
+        ["xpath=//a[@id='history-link']/span/i", "xpath:idRelative"],
+        ["xpath=//a[3]/span/i", "xpath:position"],
+        ["xpath=//i[contains(.,'')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "186fcf47-8300-477b-99f1-37238453d2a5",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Szczegóły",
-      "targets": [
-        ["linkText=Szczegóły", "linkText"],
-        ["css=.view-order-details-link", "css:finder"],
-        ["xpath=//a[contains(text(),'Szczegóły')]", "xpath:link"],
-        ["xpath=//section[@id='content']/table/tbody/tr/td[6]/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'https://127.0.0.1/index.php?controller=order-detail&id_order=5')]", "xpath:href"],
-        ["xpath=//td[6]/a", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "8b47588b-f02a-40d6-8220-b1120f3a213f",
+      "id": "759ba9e5-8c8b-4875-8f54-3a0c1609d50b",
       "comment": "",
       "command": "click",
       "target": "css=td > .label",
       "targets": [
         ["css=td > .label", "css:finder"],
-        ["xpath=//section[@id='order-history']/table/tbody/tr/td[2]/span", "xpath:idRelative"],
-        ["xpath=//td[2]/span", "xpath:position"],
+        ["xpath=//section[@id='content']/table/tbody/tr/td[4]/span", "xpath:idRelative"],
+        ["xpath=//td[4]/span", "xpath:position"],
         ["xpath=//span[contains(.,'Oczekiwanie na płatność przy odbiorze')]", "xpath:innerText"]
       ],
       "value": ""
