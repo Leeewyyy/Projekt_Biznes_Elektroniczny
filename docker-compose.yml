@@ -21,6 +21,9 @@ services:
       - kuzynihagrida-prestashop:/var/www/html
     networks:
       - admin_mysql
+    deploy:
+      # by default it starts as 0/1 replicas
+      replicas: 1
 
 volumes:
   kuzynihagrida-prestashop:
