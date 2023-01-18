@@ -15,7 +15,7 @@ Odpalamy stack poniższym poleceniem:
 docker stack deploy --compose-file docker-compose.yml be_179934
 
 Tunel SSH:
-ssh -L localhost:80:actina15.maas:17993 rsww@172.20.83.101
+ssh -L localhost:80:actina15.maas:17993 -L localhost:443:actina15.maas:17994 rsww@172.20.83.101
 
 DOCKERHUB
 Budujemy obraz poleceniem "docker build . -t kuzynihagrida1/prestashop".
