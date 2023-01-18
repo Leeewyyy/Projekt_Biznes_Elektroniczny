@@ -14,6 +14,9 @@ https://docs.docker.com/engine/swarm/stack-deploy/#deploy-the-stack-to-the-swarm
 Odpalamy stack poniższym poleceniem:
 docker stack deploy --compose-file docker-compose.yml be_179934
 
+Tunel SSH:
+ssh -L localhost:80:actina15.maas:17993 rsww@172.20.83.101
+
 DOCKERHUB
 Budujemy obraz poleceniem "docker build . -t kuzynihagrida1/prestashop".
 Wysyłamy obraz do huba, poleceniem "docker push kuzynihagrida1/prestashop:latest".

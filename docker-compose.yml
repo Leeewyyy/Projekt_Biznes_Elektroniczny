@@ -8,20 +8,21 @@ services:
       DB_USER: kuzynihagrida
       DB_PASSWD: kuzynihagrida
       DB_NAME: kuzynihagrida
-      PS_DOMAIN: localhost:17993
+      PS_DOMAIN: localhost
       PS_FOLDER_ADMIN: admin959zyirsstq62mddx3e
       PS_INSTALL_AUTO: 0
       ADMIN_MAIL: kuzynihagrida@gmail.com
       ADMIN_PASSWD: Kuzyn1!2@
     ports:
-      - 17993:80
+      - 17993:80  # http
+      - 17994:443 # https
     volumes: 
-      - kuzynihagrida-prestashop:/var/www/html
+      - kuzynihagrida-prestashop-volume:/var/www/html
     networks:
       - admin_mysql
 
 volumes:
-  kuzynihagrida-prestashop:
+  kuzynihagrida-prestashop-volume:
 
 networks:
   admin_mysql:
