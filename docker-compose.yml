@@ -9,10 +9,8 @@ services:
       DB_PASSWD: kuzynihagrida
       DB_NAME: kuzynihagrida
       PS_DOMAIN: localhost:17993
-      PS_LANGUAGE: pl
-      PS_FOLDER_ADMIN: admin-kuzynihagrida
-      PS_INSTALL_AUTO: 1
-      PS_INSTALL_FOLDER: install-kuzynihagrida
+      PS_FOLDER_ADMIN: admin959zyirsstq62mddx3e
+      PS_INSTALL_AUTO: 0
       ADMIN_MAIL: kuzynihagrida@gmail.com
       ADMIN_PASSWD: Kuzyn1!2@
     ports:
@@ -21,9 +19,6 @@ services:
       - kuzynihagrida-prestashop:/var/www/html
     networks:
       - admin_mysql
-    deploy:
-      # by default it starts as 0/1 replicas
-      replicas: 1
 
 volumes:
   kuzynihagrida-prestashop:

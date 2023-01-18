@@ -9,7 +9,10 @@ URUCHOMIENIE LOKALNE
 5. usuwamy folder /var/www/html/var/cache
 
 URUCHOMIENIE NA KLASTRZE
-// TODO
+https://docs.docker.com/engine/swarm/stack-deploy/#deploy-the-stack-to-the-swarm
+
+Odpalamy stack poniższym poleceniem:
+docker stack deploy --compose-file docker-compose.yml be_179934
 
 DOCKERHUB
 Budujemy obraz poleceniem "docker build . -t kuzynihagrida1/prestashop".

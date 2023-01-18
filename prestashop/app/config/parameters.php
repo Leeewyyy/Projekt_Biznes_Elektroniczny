@@ -1,0 +1,25 @@
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => 'actina15.maas',
+    'database_port' => '',
+    'database_name' => 'kuzynihagrida',
+    'database_user' => 'kuzynihagrida',
+    'database_password' => 'kuzynihagrida',
+    'database_prefix' => 'ps_',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => 'uuUWS2w54m20j2gmYDhSG244tapuYfb1kZzAteLLPDbVoWkvkXJEjWiB4IosFOJU',
+    'ps_caching' => 'CacheMemcached',
+    'ps_cache_enable' => true,
+    'ps_creation_date' => '2022-11-24',
+    'locale' => 'pl-PL',
+    'use_debug_toolbar' => true,
+    'cookie_key' => 'sGuUp4PKSyMXH2risA125nkRafoWhHWTtEoRB7Q9akEFF889k4tWb10f4DTJTGFy',
+    'cookie_iv' => 'Huhpz81wvD4cILIZZn5WjCNvmMb4KaHk',
+    'new_cookie_key' => 'def000004fbfb491a540195f4e55d59e277496e488ac7a59a570e9a6db994720a174df8ec0f5da078512fdaba6b17a9b00e243adaae6dbdd57b8a0c6a575f033200ab547',
+  ),
+);

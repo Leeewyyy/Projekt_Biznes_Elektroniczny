@@ -1,9 +1,7 @@
 FROM prestashop/prestashop:latest
 
-# Copy existing product images, themes and modules from existing installation
-COPY ./prestashop/img/      /var/www/html/img/
-COPY ./prestashop/themes/   /var/www/html/themes/
-COPY ./prestashop/modules/  /var/www/html/modules/
+# Copy existing Prestashop installation files
+COPY ./prestashop /var/www/html
 
 # Fix permissions for Prestashop catalogs
 RUN chown -R www-data:www-data /var/www/html
