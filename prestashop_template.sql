@@ -1,7 +1,3 @@
-/* Backup for __PS_DOMAIN__/
- *  at 2022-12-11 14:48:44
- */
-
 SET NAMES 'utf8mb4';
 SET FOREIGN_KEY_CHECKS = 0;
 SET SESSION sql_mode = '';
