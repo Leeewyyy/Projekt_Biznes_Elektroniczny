@@ -17,12 +17,12 @@ services:
       - 17993:80  # http
       - 17994:443 # https
     volumes: 
-      - kuzynihagrida-prestashop-volume:/var/www/html
+      - be-179934-prestashop:/var/www/html
     networks:
       - admin_mysql
 
 volumes:
-  kuzynihagrida-prestashop-volume:
+  be-179934-prestashop:
 
 networks:
   admin_mysql:

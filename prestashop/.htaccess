@@ -33,6 +33,9 @@ RewriteCond %{HTTP_HOST} ^localhost$
 RewriteRule ^c/([0-9]+)(\-[\.*_a-zA-Z0-9-]*)(-[0-9]+)?/.+\.jpg$ %{ENV:REWRITEBASE}img/c/$1$2$3.jpg [L]
 RewriteCond %{HTTP_HOST} ^localhost$
 RewriteRule ^c/([a-zA-Z_-]+)(-[0-9]+)?/.+\.jpg$ %{ENV:REWRITEBASE}img/c/$1$2.jpg [L]
+RewriteCond %{HTTP_HOST} ^localhost$
+RewriteRule "^/example-domain" "https://example.com/"
+
 # AlphaImageLoader for IE and fancybox
 RewriteRule ^images_ie/?([^/]+)\.(jpe?g|png|gif)$ js/jquery/plugins/fancybox/images/$1.$2 [L]
 

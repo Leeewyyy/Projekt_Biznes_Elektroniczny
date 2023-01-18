@@ -9,6 +9,8 @@ COPY ./certificate/localhost.crt /etc/ssl/certs/localhost.crt
 COPY ./certificate/localhost.key /etc/ssl/private/localhost.key
 
 # Enable Apache modules and localhost site
+RUN a2enmod env
+RUN a2enmod headers
 RUN a2enmod rewrite
 RUN a2enmod ssl
 RUN a2ensite localhost
