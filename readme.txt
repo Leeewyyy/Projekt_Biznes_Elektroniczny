@@ -26,3 +26,8 @@ PRESTASHOP
 Adres sklepu: http://localhost:17993
 Panel admina: http://localhost:17993/admin-kuzynihagrida
 Hasło: Kuzyn1!2@
+
+Adres na klastrze po ustawieniu tunelu ssh:
+Adres sklepu: https://localhost:443
+Panel admina: https://localhost:443/admin959zyirsstq62mddx3e
+Hasło: Kuzyn1!2@
